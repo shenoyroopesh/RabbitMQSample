@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderWebApp", "OrderWebApp\OrderWebApp.csproj", "{88CEC054-882A-434D-BA52-65B348D61102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderModels", "..\OrderModels\OrderModels.csproj", "{4BD7A407-94A4-41A7-BFD3-C86B65281DAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BD7A407-94A4-41A7-BFD3-C86B65281DAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD7A407-94A4-41A7-BFD3-C86B65281DAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD7A407-94A4-41A7-BFD3-C86B65281DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD7A407-94A4-41A7-BFD3-C86B65281DAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88CEC054-882A-434D-BA52-65B348D61102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88CEC054-882A-434D-BA52-65B348D61102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88CEC054-882A-434D-BA52-65B348D61102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88CEC054-882A-434D-BA52-65B348D61102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

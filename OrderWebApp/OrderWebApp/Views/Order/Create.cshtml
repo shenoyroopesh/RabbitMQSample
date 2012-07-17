@@ -1,0 +1,53 @@
+﻿@model OrderModels.Order
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Order</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CustomerName)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.CustomerName)
+            @Html.ValidationMessageFor(model => model.CustomerName)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.EmailId)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.EmailId)
+            @Html.ValidationMessageFor(model => model.EmailId)
+        </div>
+
+         <div class="editor-label">
+            @Html.LabelFor(model => model.Details)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Details)
+            @Html.ValidationMessageFor(model => model.Details)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
+<script type="text/javascript" src="../../Scripts/jquery-1.6.2.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#CustomerName').focus();
+    });
+</script>
